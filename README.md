@@ -1,5 +1,5 @@
 # TextBasedGame
-Text-only 2D adventure game
+Text-only "topdown 2D" adventure game
 
 Installing Xcode:   https://developer.apple.com/xcode/downloads/
 
