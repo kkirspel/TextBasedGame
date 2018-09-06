@@ -1,0 +1,8 @@
+/Users/student3/Downloads/StarterGame (Value0.5, ShopWeight0.5, ShopMultiple0.5)/Key.m:17: error: no declaration of property 'worth' found in the interface
+/Users/student3/Downloads/StarterGame (Value0.5, ShopWeight0.5, ShopMultiple0.5)/Key.m: In function '-[Key initWithName:]':
+/Users/student3/Downloads/StarterGame (Value0.5, ShopWeight0.5, ShopMultiple0.5)/Key.m:33: error: 'worth' undeclared (first use in this function)
+/Users/student3/Downloads/StarterGame (Value0.5, ShopWeight0.5, ShopMultiple0.5)/Key.m:33: error: (Each undeclared identifier is reported only once
+/Users/student3/Downloads/StarterGame (Value0.5, ShopWeight0.5, ShopMultiple0.5)/Key.m:33: error: for each function it appears in.)
+/Users/student3/Downloads/StarterGame (Value0.5, ShopWeight0.5, ShopMultiple0.5)/Key.m: At top level:
+/Users/student3/Downloads/StarterGame (Value0.5, ShopWeight0.5, ShopMultiple0.5)/Key.m:44: warning: property 'value' requires method '-value' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/student3/Downloads/StarterGame (Value0.5, ShopWeight0.5, ShopMultiple0.5)/Key.m:44: warning: property 'value' requires the method 'setValue:' to be defined - use @synthesize, @dynamic or provide a method implementation

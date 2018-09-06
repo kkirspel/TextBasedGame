@@ -1,0 +1,4 @@
+/Users/student3/Downloads/StarterGame (UnLock0.5,Teleport0.5,Value0.5)/Door.m: In function '-[Door getLock]':
+/Users/student3/Downloads/StarterGame (UnLock0.5,Teleport0.5,Value0.5)/Door.m:178: warning: type 'id <LockProtocol>' does not conform to the 'NSObject' protocol
+/Users/student3/Downloads/StarterGame (UnLock0.5,Teleport0.5,Value0.5)/Door.m: In function '-[Door dealloc]':
+/Users/student3/Downloads/StarterGame (UnLock0.5,Teleport0.5,Value0.5)/Door.m:183: warning: '-release' not found in protocol(s)

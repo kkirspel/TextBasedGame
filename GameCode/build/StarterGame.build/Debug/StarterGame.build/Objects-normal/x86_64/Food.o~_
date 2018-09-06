@@ -1,0 +1,13 @@
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:14: error: no declaration of property 'name' found in the interface
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:15: error: no declaration of property 'weight' found in the interface
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:16: error: no declaration of property 'cubicInches' found in the interface
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:17: error: no declaration of property 'worth' found in the interface
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m: In function '-[Food initWithName:]':
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:25: error: 'name' undeclared (first use in this function)
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:25: error: (Each undeclared identifier is reported only once
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:25: error: for each function it appears in.)
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:26: error: 'weight' undeclared (first use in this function)
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:27: error: 'cubicInches' undeclared (first use in this function)
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:28: error: 'worth' undeclared (first use in this function)
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m: In function '-[Food dealloc]':
+/Users/student3/Downloads/StarterGame (Add-DropMultiple0.5,ThreeCommand,Characters)/Food.m:35: error: 'name' undeclared (first use in this function)

@@ -1,0 +1,132 @@
+TStarterGame
+v7
+r0
+t352828326.868475
+cCheck dependencies
+cProcessPCH /var/folders/tO/tOaVuIqyFW8WqvoCi+5UUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StarterGame_Prefix-dxrnpalnlgsjizczaiaxhywnjcjr/StarterGame_Prefix.pch.gch StarterGame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/StarterGame.o /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/Room.o /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/StarterGame normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E5656FF0000000000B38E90
+t1314281215
+s11767440
+
+N/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.h
+c000000004F57841C0000000000000159
+t1331135516
+s345
+i<Cocoa/Cocoa.h>
+
+N/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m
+c000000004F5782A900000000000000C1
+t1331135145
+s193
+i"Room.h"
+
+N/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame.m
+c000000004F57814400000000000000EA
+t1331134788
+s234
+i<Foundation/Foundation.h>
+
+N/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame_Prefix.pch
+c000000004F57814400000000000000A4
+t1331134788
+s164
+i<Foundation/Foundation.h>
+
+N/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/StarterGame
+t1331135526
+s10264
+
+N/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/Room.o
+t1331135526
+s6100
+
+N/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/StarterGame.LinkFileList
+c000000004F57841D000000000000011B
+t1331135517
+s283
+
+N/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/StarterGame.o
+t1331135525
+s7004
+
+N/var/folders/tO/tOaVuIqyFW8WqvoCi+5UUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StarterGame_Prefix-dxrnpalnlgsjizczaiaxhywnjcjr/StarterGame_Prefix.pch.gch
+t1331135524
+s41429776
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies352828316#352828317#0(0"0(0#1#0"8627462304#0"0#
+
+CCompileC build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/Room.o /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s352828325.069808
+e352828326.253822
+r1
+xCompileC
+xbuild/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/Room.o
+x/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m:14: warning: property 'tag' requires method '-tag' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m:14: warning: incomplete implementation of class 'Room'
+o/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m:14: warning: method definition for '-initWithTag:' not found
+o/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m:14: warning: method definition for '-init' not found
+lSLF07#2@75"Compile /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m352828325#352828326#0(569"/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m:14: warning: property 'tag' requires method '-tag' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m:14: warning: incomplete implementation of class 'Room'/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m:14: warning: method definition for '-initWithTag:' not found/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m:14: warning: method definition for '-init' not found4(22@114"Property 'tag' requires method '-tag' to be defined - use @synthesize, @dynamic or provide a method implementation352828326#0#196#0(6@67"/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m352827945#14#0#14#0#0"0(22@41"Incomplete implementation of class 'Room'352828326#196#123#0(6@67"/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m352827945#14#0#14#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-initWithTag:' not found352828326#319#129#0(6@67"/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m352827945#14#0#14#0#35"method definition for '*' not found0(22@39"Method definition for '-init' not found352828326#448#121#0(6@67"/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m352827945#14#0#14#0#35"method definition for '*' not found0(0#0#67"/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m8629523936#1772"    cd /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-generated-files.hmap -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-own-target-headers.hmap -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-all-target-headers.hmap -iquote /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-project-headers.hmap -F/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/include -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/DerivedSources/x86_64 -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/DerivedSources -include /var/folders/tO/tOaVuIqyFW8WqvoCi+5UUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StarterGame_Prefix-dxrnpalnlgsjizczaiaxhywnjcjr/StarterGame_Prefix.pch -c /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/Room.m -o /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/Room.o0#
+
+CCompileC build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/StarterGame.o /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s352828325.067094
+e352828325.558265
+r1
+xCompileC
+xbuild/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/StarterGame.o
+x/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame.m352828325#352828325#0(0"0(0#0#74"/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame.m8630807136#1786"    cd /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-generated-files.hmap -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-own-target-headers.hmap -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-all-target-headers.hmap -iquote /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-project-headers.hmap -F/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/include -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/DerivedSources/x86_64 -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/DerivedSources -include /var/folders/tO/tOaVuIqyFW8WqvoCi+5UUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StarterGame_Prefix-dxrnpalnlgsjizczaiaxhywnjcjr/StarterGame_Prefix.pch -c /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame.m -o /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/StarterGame.o0#
+
+CLd /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/StarterGame normal x86_64
+s352828326.253943
+e352828326.868261
+r1
+xLd
+x/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/StarterGame
+xnormal
+xx86_64
+lSLF07#2@89"Link /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/StarterGame352828326#352828326#0(0"0(0#0#0"8630702848#646"    cd /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug -F/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug -filelist /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/Objects-normal/x86_64/StarterGame.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/StarterGame0#
+
+CProcessPCH /var/folders/tO/tOaVuIqyFW8WqvoCi+5UUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StarterGame_Prefix-dxrnpalnlgsjizczaiaxhywnjcjr/StarterGame_Prefix.pch.gch StarterGame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s352828317.141711
+e352828325.066733
+r1
+xProcessPCH
+x/var/folders/tO/tOaVuIqyFW8WqvoCi+5UUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StarterGame_Prefix-dxrnpalnlgsjizczaiaxhywnjcjr/StarterGame_Prefix.pch.gch
+xStarterGame_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile StarterGame_Prefix.pch352828317#352828325#0(0"0(0#0#83"/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame_Prefix.pch8628156160#1652"    cd /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-generated-files.hmap -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-own-target-headers.hmap -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-all-target-headers.hmap -iquote /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/StarterGame-project-headers.hmap -F/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/Debug/include -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/DerivedSources/x86_64 -I/Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/build/StarterGame.build/Debug/StarterGame.build/DerivedSources -c /Users/computerscience/Documents/CPSC3175/Sp2012/StarterGame/StarterGame_Prefix.pch -o /var/folders/tO/tOaVuIqyFW8WqvoCi+5UUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StarterGame_Prefix-dxrnpalnlgsjizczaiaxhywnjcjr/StarterGame_Prefix.pch.gch0#
+
