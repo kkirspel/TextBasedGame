@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB9DD571507BA29009143C7 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DD561507BA29009143C7 /* Room.m */; };
+		3FB9DD741507C473009143C7 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DD731507C473009143C7 /* Player.m */; };
+		3FB9DD831507C747009143C7 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DD821507C747009143C7 /* Command.m */; };
+		3FB9DD971507CA46009143C7 /* GoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DD961507CA46009143C7 /* GoCommand.m */; };
+		3FB9DD9C1507CB41009143C7 /* QuitCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DD9B1507CB41009143C7 /* QuitCommand.m */; };
+		3FB9DDA31507D1DF009143C7 /* CommandWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DDA21507D1DF009143C7 /* CommandWords.m */; };
+		3FB9DDAE1507D4A7009143C7 /* HelpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DDAD1507D4A7009143C7 /* HelpCommand.m */; };
+		3FB9DDBD1507DCA6009143C7 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DDBC1507DCA6009143C7 /* Parser.m */; };
+		3FB9DDCE1507E1A4009143C7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9DDCD1507E1A4009143C7 /* Game.m */; };
+		8DD76F9A0486AA7600D96B5E /* StarterGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* StarterGame.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* StarterGame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* StarterGame.1 */; };
+		D7031FA91549B8300026DC02 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = D7031FA81549B8300026DC02 /* Character.m */; };
+		D7031FBB1549CC820026DC02 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = D7031FBA1549CC820026DC02 /* Food.m */; };
+		D722BFCF154386B40048C842 /* DropCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D722BFCE154386B40048C842 /* DropCommand.m */; };
+		D7240ECF151BB741005643BC /* Key.m in Sources */ = {isa = PBXBuildFile; fileRef = D7240ECE151BB741005643BC /* Key.m */; };
+		D73FCE4915473BE400A17D66 /* TeleportCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FCE4815473BE400A17D66 /* TeleportCommand.m */; };
+		D73FCED815478AE000A17D66 /* BrowseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FCED715478AE000A17D66 /* BrowseCommand.m */; };
+		D75527DC1541E4580095CD28 /* PickupCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D75527DB1541E4580095CD28 /* PickupCommand.m */; };
+		D755292015424F9D0095CD28 /* InventoryCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D755291F15424F9D0095CD28 /* InventoryCommand.m */; };
+		D77E486715459CC400119987 /* BuyCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D77E486615459CC400119987 /* BuyCommand.m */; };
+		D77E49351545D69600119987 /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = D77E49341545D69600119987 /* Drink.m */; };
+		D77E4A4A15465AED00119987 /* SellCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D77E4A4915465AED00119987 /* SellCommand.m */; };
+		D79453EE1544ED3F00797CBA /* StatsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D79453ED1544ED3F00797CBA /* StatsCommand.m */; };
+		D79453FD1544EFA700797CBA /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = D79453FC1544EFA700797CBA /* Book.m */; };
+		D7AB046015190D960072F7A1 /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AB045F15190D960072F7A1 /* Door.m */; };
+		D7AB04641519145D0072F7A1 /* RegularLock.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AB04631519145D0072F7A1 /* RegularLock.m */; };
+		D7B1E61B15367422005626B6 /* UnlockCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B1E61A15367422005626B6 /* UnlockCommand.m */; };
+		D7EB03E2152FC77C0093EC0A /* BackCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EB03E1152FC77C0093EC0A /* BackCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* StarterGame.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* StarterGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarterGame.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* StarterGame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarterGame_Prefix.pch; sourceTree = "<group>"; };
+		3FB9DD551507BA29009143C7 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		3FB9DD561507BA29009143C7 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		3FB9DD721507C473009143C7 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3FB9DD731507C473009143C7 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3FB9DD811507C747009143C7 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		3FB9DD821507C747009143C7 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		3FB9DD951507CA46009143C7 /* GoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoCommand.h; sourceTree = "<group>"; };
+		3FB9DD961507CA46009143C7 /* GoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoCommand.m; sourceTree = "<group>"; };
+		3FB9DD9A1507CB41009143C7 /* QuitCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuitCommand.h; sourceTree = "<group>"; };
+		3FB9DD9B1507CB41009143C7 /* QuitCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuitCommand.m; sourceTree = "<group>"; };
+		3FB9DDA11507D1DF009143C7 /* CommandWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandWords.h; sourceTree = "<group>"; };
+		3FB9DDA21507D1DF009143C7 /* CommandWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandWords.m; sourceTree = "<group>"; };
+		3FB9DDAC1507D4A7009143C7 /* HelpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpCommand.h; sourceTree = "<group>"; };
+		3FB9DDAD1507D4A7009143C7 /* HelpCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpCommand.m; sourceTree = "<group>"; };
+		3FB9DDBB1507DCA6009143C7 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		3FB9DDBC1507DCA6009143C7 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		3FB9DDCC1507E1A4009143C7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		3FB9DDCD1507E1A4009143C7 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		3FB9DE2D1507F665009143C7 /* HelperFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperFunctions.h; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* StarterGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StarterGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* StarterGame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StarterGame.1; sourceTree = "<group>"; };
+		D7031FA71549B8300026DC02 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		D7031FA81549B8300026DC02 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		D7031FB91549CC820026DC02 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		D7031FBA1549CC820026DC02 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		D722BFCD154386B40048C842 /* DropCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropCommand.h; sourceTree = "<group>"; };
+		D722BFCE154386B40048C842 /* DropCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropCommand.m; sourceTree = "<group>"; };
+		D7240ECD151BB741005643BC /* Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
+		D7240ECE151BB741005643BC /* Key.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Key.m; sourceTree = "<group>"; };
+		D73FCE4715473BE400A17D66 /* TeleportCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeleportCommand.h; sourceTree = "<group>"; };
+		D73FCE4815473BE400A17D66 /* TeleportCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeleportCommand.m; sourceTree = "<group>"; };
+		D73FCED615478AE000A17D66 /* BrowseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseCommand.h; sourceTree = "<group>"; };
+		D73FCED715478AE000A17D66 /* BrowseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseCommand.m; sourceTree = "<group>"; };
+		D75527DA1541E4580095CD28 /* PickupCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickupCommand.h; sourceTree = "<group>"; };
+		D75527DB1541E4580095CD28 /* PickupCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickupCommand.m; sourceTree = "<group>"; };
+		D755291E15424F9D0095CD28 /* InventoryCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryCommand.h; sourceTree = "<group>"; };
+		D755291F15424F9D0095CD28 /* InventoryCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryCommand.m; sourceTree = "<group>"; };
+		D77E486515459CC400119987 /* BuyCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyCommand.h; sourceTree = "<group>"; };
+		D77E486615459CC400119987 /* BuyCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyCommand.m; sourceTree = "<group>"; };
+		D77E49331545D69600119987 /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
+		D77E49341545D69600119987 /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		D77E4A4815465AED00119987 /* SellCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellCommand.h; sourceTree = "<group>"; };
+		D77E4A4915465AED00119987 /* SellCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellCommand.m; sourceTree = "<group>"; };
+		D79453EC1544ED3F00797CBA /* StatsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsCommand.h; sourceTree = "<group>"; };
+		D79453ED1544ED3F00797CBA /* StatsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsCommand.m; sourceTree = "<group>"; };
+		D79453FB1544EFA700797CBA /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		D79453FC1544EFA700797CBA /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		D7AB045E15190D960072F7A1 /* Door.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
+		D7AB045F15190D960072F7A1 /* Door.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Door.m; sourceTree = "<group>"; };
+		D7AB046115190F240072F7A1 /* GameProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameProtocols.h; sourceTree = "<group>"; };
+		D7AB04621519145D0072F7A1 /* RegularLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularLock.h; sourceTree = "<group>"; };
+		D7AB04631519145D0072F7A1 /* RegularLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularLock.m; sourceTree = "<group>"; };
+		D7B1E61915367422005626B6 /* UnlockCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockCommand.h; sourceTree = "<group>"; };
+		D7B1E61A15367422005626B6 /* UnlockCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockCommand.m; sourceTree = "<group>"; };
+		D7EB03E0152FC77C0093EC0A /* BackCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackCommand.h; sourceTree = "<group>"; };
+		D7EB03E1152FC77C0093EC0A /* BackCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* StarterGame */ = {
+			isa = PBXGroup;
+			children = (
+				D75527B71541DD550095CD28 /* Commands */,
+				D75527B61541DD3F0095CD28 /* Items */,
+				3FB9DD501507B8D9009143C7 /* Classes */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = StarterGame;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32A70AAB03705E1F00C91783 /* StarterGame_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* StarterGame.m */,
+				C6859EA2029092E104C91782 /* Documentation */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* StarterGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB9DD501507B8D9009143C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9DD551507BA29009143C7 /* Room.h */,
+				3FB9DD561507BA29009143C7 /* Room.m */,
+				3FB9DD721507C473009143C7 /* Player.h */,
+				3FB9DD731507C473009143C7 /* Player.m */,
+				D7031FA71549B8300026DC02 /* Character.h */,
+				D7031FA81549B8300026DC02 /* Character.m */,
+				3FB9DDA11507D1DF009143C7 /* CommandWords.h */,
+				3FB9DDA21507D1DF009143C7 /* CommandWords.m */,
+				3FB9DDBB1507DCA6009143C7 /* Parser.h */,
+				3FB9DDBC1507DCA6009143C7 /* Parser.m */,
+				3FB9DDCC1507E1A4009143C7 /* Game.h */,
+				3FB9DDCD1507E1A4009143C7 /* Game.m */,
+				3FB9DE2D1507F665009143C7 /* HelperFunctions.h */,
+				D7AB045E15190D960072F7A1 /* Door.h */,
+				D7AB045F15190D960072F7A1 /* Door.m */,
+				D7AB046115190F240072F7A1 /* GameProtocols.h */,
+				D7AB04621519145D0072F7A1 /* RegularLock.h */,
+				D7AB04631519145D0072F7A1 /* RegularLock.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* StarterGame.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		D75527B61541DD3F0095CD28 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				D7240ECD151BB741005643BC /* Key.h */,
+				D7240ECE151BB741005643BC /* Key.m */,
+				D79453FB1544EFA700797CBA /* Book.h */,
+				D79453FC1544EFA700797CBA /* Book.m */,
+				D77E49331545D69600119987 /* Drink.h */,
+				D77E49341545D69600119987 /* Drink.m */,
+				D7031FB91549CC820026DC02 /* Food.h */,
+				D7031FBA1549CC820026DC02 /* Food.m */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		D75527B71541DD550095CD28 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9DD811507C747009143C7 /* Command.h */,
+				3FB9DD821507C747009143C7 /* Command.m */,
+				3FB9DD951507CA46009143C7 /* GoCommand.h */,
+				3FB9DD961507CA46009143C7 /* GoCommand.m */,
+				3FB9DD9A1507CB41009143C7 /* QuitCommand.h */,
+				3FB9DD9B1507CB41009143C7 /* QuitCommand.m */,
+				D7EB03E0152FC77C0093EC0A /* BackCommand.h */,
+				D7EB03E1152FC77C0093EC0A /* BackCommand.m */,
+				D7B1E61915367422005626B6 /* UnlockCommand.h */,
+				D7B1E61A15367422005626B6 /* UnlockCommand.m */,
+				3FB9DDAC1507D4A7009143C7 /* HelpCommand.h */,
+				3FB9DDAD1507D4A7009143C7 /* HelpCommand.m */,
+				D75527DA1541E4580095CD28 /* PickupCommand.h */,
+				D75527DB1541E4580095CD28 /* PickupCommand.m */,
+				D722BFCD154386B40048C842 /* DropCommand.h */,
+				D722BFCE154386B40048C842 /* DropCommand.m */,
+				D755291E15424F9D0095CD28 /* InventoryCommand.h */,
+				D755291F15424F9D0095CD28 /* InventoryCommand.m */,
+				D79453EC1544ED3F00797CBA /* StatsCommand.h */,
+				D79453ED1544ED3F00797CBA /* StatsCommand.m */,
+				D77E486515459CC400119987 /* BuyCommand.h */,
+				D77E486615459CC400119987 /* BuyCommand.m */,
+				D77E4A4815465AED00119987 /* SellCommand.h */,
+				D77E4A4915465AED00119987 /* SellCommand.m */,
+				D73FCE4715473BE400A17D66 /* TeleportCommand.h */,
+				D73FCE4815473BE400A17D66 /* TeleportCommand.m */,
+				D73FCED615478AE000A17D66 /* BrowseCommand.h */,
+				D73FCED715478AE000A17D66 /* BrowseCommand.m */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* StarterGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "StarterGame" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarterGame;
+			productInstallPath = "$(HOME)/bin";
+			productName = StarterGame;
+			productReference = 8DD76FA10486AA7600D96B5E /* StarterGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "StarterGame" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* StarterGame */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* StarterGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* StarterGame.m in Sources */,
+				3FB9DD571507BA29009143C7 /* Room.m in Sources */,
+				3FB9DD741507C473009143C7 /* Player.m in Sources */,
+				3FB9DD831507C747009143C7 /* Command.m in Sources */,
+				3FB9DD971507CA46009143C7 /* GoCommand.m in Sources */,
+				3FB9DD9C1507CB41009143C7 /* QuitCommand.m in Sources */,
+				3FB9DDA31507D1DF009143C7 /* CommandWords.m in Sources */,
+				3FB9DDAE1507D4A7009143C7 /* HelpCommand.m in Sources */,
+				3FB9DDBD1507DCA6009143C7 /* Parser.m in Sources */,
+				3FB9DDCE1507E1A4009143C7 /* Game.m in Sources */,
+				D7AB046015190D960072F7A1 /* Door.m in Sources */,
+				D7AB04641519145D0072F7A1 /* RegularLock.m in Sources */,
+				D7240ECF151BB741005643BC /* Key.m in Sources */,
+				D7EB03E2152FC77C0093EC0A /* BackCommand.m in Sources */,
+				D7B1E61B15367422005626B6 /* UnlockCommand.m in Sources */,
+				D75527DC1541E4580095CD28 /* PickupCommand.m in Sources */,
+				D755292015424F9D0095CD28 /* InventoryCommand.m in Sources */,
+				D722BFCF154386B40048C842 /* DropCommand.m in Sources */,
+				D79453EE1544ED3F00797CBA /* StatsCommand.m in Sources */,
+				D79453FD1544EFA700797CBA /* Book.m in Sources */,
+				D77E486715459CC400119987 /* BuyCommand.m in Sources */,
+				D77E49351545D69600119987 /* Drink.m in Sources */,
+				D77E4A4A15465AED00119987 /* SellCommand.m in Sources */,
+				D73FCE4915473BE400A17D66 /* TeleportCommand.m in Sources */,
+				D73FCED815478AE000A17D66 /* BrowseCommand.m in Sources */,
+				D7031FA91549B8300026DC02 /* Character.m in Sources */,
+				D7031FBB1549CC820026DC02 /* Food.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StarterGame_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = StarterGame;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StarterGame_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = StarterGame;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "StarterGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "StarterGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
