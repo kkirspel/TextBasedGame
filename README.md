@@ -7,4 +7,4 @@ Using Xcode:        https://codewithchris.com/first-xcode-project/
 
 Directions:
 
-(pending access to a Mac to run this program and document (wrote this 5 years ago)) 
+(pending access to a mac to run this program and then document (wrote several years ago on a university mac)) 
